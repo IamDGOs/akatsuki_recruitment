@@ -74,7 +74,7 @@ a:hover{
 }
 
 .name-organization{
-    font-family: 'Ninja Naruto Regular';
+    font-family: 'Ninja Naruto Regular', 'Poppins', sans-serif;
     font-weight: normal;
     color: #f24841;
     text-shadow: 1px 1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff, -1px -1px 1px #fff;
