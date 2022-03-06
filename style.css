@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+@font-face {
+    font-family: 'Ninja Naruto Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ninja Naruto Regular'), url('../fonts/ninja-naruto.regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ninja Naruto';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/njnaruto.ttf') format('ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #141414;
+    color: #fff;
+    max-width: 1340px;
+    width: 98%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    display: flex;
+    line-height: 30px;
+}
+
+.japanese{
+    padding-left: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f24841;
+    transition: 0.5s all;
+}
+
+#member-btn{
+    border: 2px solid #f24841;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+#member-btn:hover{
+    background-color: #f24841;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: 0.7s all;
+}
+
+.name-organization{
+    font-family: 'Ninja Naruto Regular';
+    font-weight: normal;
+    color: #f24841;
+    text-shadow: 1px 1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff, -1px -1px 1px #fff;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+aside{
+    width: 50%;
+}
+
+h2{
+    font-size: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.subscribe{
+    color: #f24841;
+}
+
+p{
+    margin-top: 20px;
+    line-height: 20px;
+    max-width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #f24841;
+    color: #fff;
+    font-weight: bold;
+    align-items: center;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+article{
+    width: 50%;
+}
+
+img{
+    padding-top: 20%;
+    width: 95%;
+}
+
+@media screen and (max-width: 950px){
+    header{
+        flex-direction: column;
+    }
+    ul{
+        text-align: center;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+    }
+    aside{
+        width: 100%;
+        align-items: center;
+    }
+    aside h2{
+        text-align: center;
+    }
+    aside p{
+        text-align: center;
+        margin: 20px auto;
+    }
+    article{
+        display: none;
+    }
+    form input{
+        width: 50%;
+        text-align: center;
+    }
+    form [type="submit"]{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    p{
+        font-size: 1rem;
+    }
+    form{
+        padding: 10%;
+    }
+    form input{
+        width: 100%;
+    }
+    form [type="submit"]{
+        width: 100%;
+    }
+}
