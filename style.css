@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+@import url('//db.onlinewebfonts.com/c/73fedd912ba11f583a359ce4c2e742ed?family=Ninja+Naruto');
+@font-face {
+    font-family: "Ninja Naruto";
+    src: url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.eot");
+    src: url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.woff") format("woff"), url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.svg#Ninja Naruto") format("svg");
+}
 @font-face {
     font-family: 'Ninja Naruto Regular';
     font-style: normal;
@@ -74,7 +80,7 @@ a:hover{
 }
 
 .name-organization{
-    font-family: 'Ninja Naruto Regular', 'Poppins', sans-serif;
+    font-family: 'Ninja Naruto Regular', 'Ninja Naruto', 'Poppins', sans-serif;
     font-weight: normal;
     color: #f24841;
     text-shadow: 1px 1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff, -1px -1px 1px #fff;
