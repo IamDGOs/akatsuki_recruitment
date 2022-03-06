@@ -3,14 +3,14 @@
     font-family: 'Ninja Naruto Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Ninja Naruto Regular'), url('../fonts/ninja-naruto.regular.woff') format('woff');
+    src: local('Ninja Naruto Regular'), url('../ninja-naruto.regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Ninja Naruto';
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/njnaruto.ttf') format('ttf');
+    src: url('../njnaruto.ttf') format('ttf');
 }
 
 *{
